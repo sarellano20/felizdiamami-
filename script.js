@@ -13,11 +13,11 @@ const images = [
 ];
 
 const texts = [
-  "Hola mamita linda, hoy queremos dedicarte unas palabras desde lo más profundo de mi corazón.",
-  "Gracias por ser mi guía, mi fuerza, y por nunca soltarme la mano aun en los momentos más difíciles.",
+  "Hola mamita linda, hoy queremos dedicarte unas palabras desde lo más profundo de nuestro corazón.",
+  "Gracias por ser nuestra guía, nuestra fuerza, y por nunca soltarnos la mano aun en los momentos más difíciles.",
   "Has sido mamá, amiga, consejera, cómplice, y el ejemplo más hermoso que tengo en esta vida.",
-  "Tu esfuerzo, tu ternura, tu forma de amar tan incondicional me han enseñado a ser quien soy.",
-  "A veces no te digo lo suficiente cuánto te amo, pero hoy quiero recordártelo con todo mi ser.",
+  "Tu esfuerzo, tu ternura, tu forma de amar tan incondicional nos han enseñado a ser quien somos.",
+  "A veces no te decinos lo suficiente cuánto te amamos, pero hoy queremos recordártelo con todo nuestro ser.",
   "Gracias por cada comida, cada abrazo, cada sacrificio que hiciste con una sonrisa.",
   "Sé que no fue fácil, pero lo hiciste siempre con amor, y eso es algo que jamás olvidaré.",
   "Quiero que sepas que Santiago y Esther te aman infinitamente, y que eres nuestro orgullo y bendición.",
