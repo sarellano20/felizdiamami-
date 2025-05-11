@@ -1,0 +1,117 @@
+
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background: linear-gradient(to bottom, #ffe3e3, #fff0f5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  color: #5a0035;
+  overflow-x: hidden;
+}
+.scene-container {
+  max-width: 600px;
+  width: 100%;
+  height: 100vh;
+  background: radial-gradient(circle at top, #fff0f5 0%, #f8bbd0 100%);
+  padding: 20px;
+  text-align: center;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+img {
+  width: 100%;
+  border-radius: 15px;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+  margin-bottom: 15px;
+}
+p {
+  font-size: 1.1em;
+  margin: 0 10px 20px 10px;
+  background: rgba(255,255,255,0.8);
+  padding: 10px;
+  border-radius: 10px;
+}
+button {
+  background-color: #ec407a;
+  color: white;
+  border: none;
+  padding: 14px 30px;
+  font-size: 16px;
+  border-radius: 30px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  margin-bottom: 20px;
+}
+button:hover {
+  background-color: #d81b60;
+  transform: scale(1.05);
+}
+.heart {
+  position: absolute;
+  animation: flotar 4s ease-in-out infinite;
+  color: #f06292;
+  font-size: 24px;
+}
+@keyframes flotar {
+  0% { transform: translateY(0); opacity: 1; }
+  100% { transform: translateY(-100px); opacity: 0; }
+}
+.music-toggle {
+  position: fixed;
+  top: 15px;
+  left: 15px;
+  display: flex;
+  align-items: center;
+  z-index: 999;
+}
+.switch {
+  position: relative;
+  display: inline-block;
+  width: 42px;
+  height: 24px;
+}
+.switch input {
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0; left: 0;
+  right: 0; bottom: 0;
+  background-color: #ccc;
+  transition: 0.4s;
+  border-radius: 24px;
+}
+.slider:before {
+  position: absolute;
+  content: "";
+  height: 18px;
+  width: 18px;
+  left: 3px;
+  bottom: 3px;
+  background-color: white;
+  transition: 0.4s;
+  border-radius: 50%;
+}
+input:checked + .slider {
+  background-color: #ec407a;
+}
+input:checked + .slider:before {
+  transform: translateX(18px);
+}
+.music-label {
+  margin-left: 8px;
+  color: #880e4f;
+  font-size: 14px;
+  font-weight: bold;
+}
